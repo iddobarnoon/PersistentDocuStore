@@ -1,10 +1,10 @@
 package project.impl;
 
-import project.BTree;
-import project.stage6.PersistenceManager;
-
 import java.io.IOException;
 import java.util.Arrays;
+
+import project.BTree;
+import project.docstore.PersistenceManager;
 
 public class BTreeImpl<Key extends Comparable<Key>, Value> implements BTree<Key, Value> {
     private static final int MAX = 6;

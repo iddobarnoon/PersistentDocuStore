@@ -1,14 +1,15 @@
 package project.impl;
 
-import project.stage6.Document;
-import project.stage6.impl.DocumentImpl;
-import project.stage6.impl.DocumentPersistenceManager;
-import org.junit.jupiter.api.Test;
-
 import java.io.IOException;
 import java.net.URI;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import org.junit.jupiter.api.Test;
+
+import project.docstore.Document;
+import project.docstore.impl.DocumentImpl;
+import project.docstore.impl.DocumentPersistenceManager;
 
 class BTreeImplTest {
 
