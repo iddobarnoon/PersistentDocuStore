@@ -66,7 +66,7 @@ List<Document> results = store.search("hello");
 store.delete(uri);
 
 // Undo document delete
-store.undo()
+store.undo();
 ```
 
 ## API Reference
