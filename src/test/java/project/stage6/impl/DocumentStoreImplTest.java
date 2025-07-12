@@ -1,4 +1,4 @@
-package project.stage6.impl;
+package project.docstore.impl;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -11,8 +11,9 @@ import java.util.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
-import project.stage6.Document;
-import project.stage6.DocumentStore;
+import project.docstore.Document;
+import project.docstore.DocumentStore;
+import project.docstore.impl.DocumentStoreImpl;
 
 import static org.junit.jupiter.api.Assertions.*;
 

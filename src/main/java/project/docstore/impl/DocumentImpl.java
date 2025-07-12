@@ -1,6 +1,6 @@
-package project.stage6.impl;
+package project.docstore.impl;
 
-import project.stage6.Document;
+import project.docstore.Document;
 
 import java.net.URI;
 import java.util.HashMap;

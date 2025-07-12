@@ -1,7 +1,10 @@
-package project.stage6.impl;
+package project.docstore.impl;
 
-import project.stage6.Document;
 import org.junit.jupiter.api.Test;
+
+import project.docstore.Document;
+import project.docstore.impl.DocumentImpl;
+import project.docstore.impl.DocumentPersistenceManager;
 
 import java.io.IOException;
 import java.net.URI;

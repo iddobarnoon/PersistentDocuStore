@@ -1,4 +1,4 @@
-package project.stage6.impl;
+package project.docstore.impl;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,8 +18,8 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParseException;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
-import project.stage6.Document;
-import project.stage6.PersistenceManager;
+import project.docstore.Document;
+import project.docstore.PersistenceManager;
 import jakarta.xml.bind.DatatypeConverter;
 
 public class DocumentPersistenceManager implements PersistenceManager<URI, Document> {

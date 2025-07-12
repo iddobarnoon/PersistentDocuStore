@@ -1,4 +1,4 @@
-package project.stage6;
+package project.docstore;
 
 import java.net.URI;
 import java.util.HashMap;
@@ -58,7 +58,6 @@ public interface Document extends Comparable<Document> {
 
     /**
      * return the last time this document was used, via put/get or via a search result
-     * (for stage 4 of project)
      */
     long getLastUseTime();
 

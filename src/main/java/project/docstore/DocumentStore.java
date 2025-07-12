@@ -1,4 +1,4 @@
-package project.stage6;
+package project.docstore;
 
 import java.io.IOException;
 import java.io.InputStream;

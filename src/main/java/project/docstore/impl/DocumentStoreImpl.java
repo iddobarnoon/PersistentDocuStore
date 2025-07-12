@@ -1,11 +1,11 @@
-package project.stage6.impl;
+package project.docstore.impl;
 
+import project.docstore.Document;
+import project.docstore.DocumentStore;
 import project.impl.BTreeImpl;
 import project.impl.MinHeapImpl;
 import project.impl.StackImpl;
 import project.impl.TrieImpl;
-import project.stage6.Document;
-import project.stage6.DocumentStore;
 import project.undo.*;
 import project.undo.CommandSet;
 import project.undo.GenericCommand;
