@@ -27,7 +27,7 @@ The following data structures were implemented in the project:
 - Java 17 or above
 - GSON v2.9.0
 - JUnit
-- Jakarta
+- Jakarta XML Bind
 
 ### Installation
 
